@@ -1,2 +1,1 @@
-# obsve.github.io
-obsve is an open-source observability tool for Proxmox VE
+obsve is an open-source observability framework designed to bring enterprise-grade visibility to Proxmox VE environments. We leverage the OpenTelemetry (OTel) standard to build high-performance data pipelines that help system administrators monitor their virtualized infrastructure with unprecedented depth. Our goal is to provide a transparent, community-driven alternative to expensive, proprietary monitoring solutions.
