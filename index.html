@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>obsve — see more · do more</title>
+
+  <!-- Open-source friendly font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --fg: #000;
+      --bg: #fff;
+      --muted: #555;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .container {
+      max-width: 720px;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    .logo {
+      max-width: 360px;
+      width: 100%;
+      margin: 0 auto 1.25rem;
+      display: block;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      margin-bottom: 2rem;
+    }
+
+    .description {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    @media (max-width: 480px) {
+      .tagline {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <!-- Replace src with your logo path -->
+    <img
+      src="logo.png"
+      alt="obsve logo"
+      class="logo"
+    />
+
+    <div class="tagline">see more · do more</div>
+
+    <p class="description">
+      obsve is an open-source observability framework designed to bring
+      enterprise-grade visibility to Proxmox VE environments. We leverage
+      the OpenTelemetry (OTel) standard to build high-performance data
+      pipelines that help system administrators monitor their virtualized
+      infrastructure with unprecedented depth.
+    </p>
+
+    <p class="description">
+      Our goal is to provide a transparent, community-driven alternative
+      to expensive, proprietary monitoring solutions.
+    </p>
+
+    <footer>
+      Open source · Community driven
+    </footer>
+  </main>
+</body>
+</html>
