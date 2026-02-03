@@ -87,11 +87,19 @@
 </head>
 <body>
   <main class="container">
-    <img
-      src="logo2.png"
-      alt="obsve logo"
-      class="logo"
-    />
+
+    <picture>
+      <source
+        srcset="logo2b.png"
+        media="(prefers-color-scheme: dark)"
+      />
+      <img
+        src="logo2.png"
+        alt="obsve logo"
+        class="logo"
+      />
+  </picture>
+
 
     <p class="description">
       <strong>obsve</strong> is an open-source observability framework built specifically for Proxmox VE,
