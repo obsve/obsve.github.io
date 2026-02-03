@@ -54,6 +54,7 @@
       font-size: 1rem;
       line-height: 1.7;
       color: var(--muted);
+      margin-bottom: 1.25rem;
     }
 
     footer {
@@ -79,20 +80,28 @@
     />
 
     <p class="description">
-      obsve is an open-source observability framework designed to bring
-      enterprise-grade visibility to Proxmox VE environments. We leverage
-      the OpenTelemetry (OTel) standard to build high-performance data
-      pipelines that help system administrators monitor their virtualized
-      infrastructure with unprecedented depth.
+      <strong>obsve</strong> is an open-source observability framework built specifically for Proxmox VE,
+      designed to bring enterprise-grade visibility to virtualized environments. By leveraging the
+      OpenTelemetry (OTel) standard, obsve delivers high-performance, scalable telemetry pipelines that
+      provide deep, actionable insight into infrastructure operations.
     </p>
 
     <p class="description">
-      Our goal is to provide a transparent, community-driven alternative
-      to expensive, proprietary monitoring solutions.
+      At its core, obsve is built on a modular observability stack composed of the OpenTelemetry Collector
+      for telemetry ingestion and processing, Prometheus as the time-series database, and Grafana for
+      visualization through fully customizable dashboards. This standards-based foundation ensures
+      scalability, flexibility, and seamless integration with existing observability ecosystems.
+    </p>
+
+    <p class="description">
+      Designed with extensibility in mind, obsve will evolve over time through the introduction of
+      analytics and AI-powered services, delivered as containerized components. These future extensions
+      will enable advanced infrastructure intelligence, including anomaly detection, capacity planning,
+      and predictive insights.
     </p>
 
     <footer>
-      Open source · Community driven
+      Open source · Community driven · No vendor lock-in
     </footer>
   </main>
 </body>
